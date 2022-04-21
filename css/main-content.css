@@ -4,7 +4,7 @@ html, body {
   }
 
 body {
-  background-image: url(main-background.jpg);
+  background-image: url(../Photos/main-background.jpg);
   background-color: white;
   background-position: center;
   background-size: cover;
@@ -25,78 +25,7 @@ body {
   font-display: swap;
   }
 
-.banner ul  {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  list-style-type: none;
-  margin: 0px;
-  background-color: black;
-  height: 30px;
-  font-size: 16px;
-  }
 
-.banner a {
-  margin-left: 5px;
-  font-size: 16px;
-  color: white;
-  }
-
-.banner img {
-  margin-left: 10px;
-  max-width: 20px;
-  }
-
-.banner li {
-  display: flex;
-  align-items: center;
-}
-
-/*Navigation Bar*/
-.nav-content {
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgba(0,0,0,0.5);
-  border-top: 1px solid white;
-  }
-
-.nav-content ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0 10px;
-  list-style-type: none;
-  font-size: 22px;
-  color: white;
-  }
-
-.nav-content ul li {
-  padding: 0 10px;
-  }
-
-input {
-  width: 300px;
-  height: 30px;
-  border-radius: 10px;
-  border: none;
-  }
-
-.login {
-  margin-left: 20px;
-  }
-
-.cartlogo {
-  padding-right: 20px;
-  }
-
-a {
-  text-decoration: none;
-  color: white;
-  }
 
   /*Container*/
 .main-container {
@@ -154,7 +83,7 @@ span {
   margin-left: 10px;
   margin-top: 25px;
   white-space: inherit;
-  background-image: url(pexels-houzlook-com-3356416.jpg);
+  background-image: url(../Photos/pexels-houzlook-com-3356416.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 5px;
@@ -195,48 +124,4 @@ span {
   height: 190px;
   opacity: 0.8;
   margin-top: 20px;
-  }
-
-.main-container2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 250px;
-  background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #434343 50%, #000000 100%);
-  opacity: 0.9;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  color: white;
-  }
-
-.main-container2 p {
-  margin-top: -10px;
-  max-width: 950px;
-  }
-
-.icons {
-  width: 1200px;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 10px;
-  }
-
-.icons img {
-  max-width: 40px;
-  }
-
-.icons-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 20px;
-  width: 1200px;
-  }
-
-  .product-container {
-    background-image: url(Valchromat.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 300px;
   }
