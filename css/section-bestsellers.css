@@ -15,7 +15,7 @@
   .product-container h2::before {
     content: "";
     display: inline-block;
-    width: 240px;
+    width: 300px;
     height: 1px;
     background-color: white;
     margin-bottom: 8px;
@@ -25,15 +25,12 @@
   .product-container h2::after {
     content: "";
     display: inline-block;
-    width: 240px;
+    width: 300px;
     height: 1px;
     background-color: white;
     margin-bottom: 8px;
     margin-left: 25px;
   }
-
-
-
 
 .products img {
   max-width: 430px;
@@ -42,34 +39,90 @@
   border-radius: 5px;
   }
 
-.products {
+.products  {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 10px;
-
-}
-
-.products p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -300px;
-  background-color: rgba(78, 80, 80, 0.8);
-  opacity: 0.9;
-  position: relative;
-  z-index: 1;
-  height: 40px;
-  margin-right: 5px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
   }
 
-  .prices {
-    border: 1px solid red;
+.products p {
+  background-color: #9c896b;
+  opacity: 0.9;
+  height: 100px;
+  margin-right: 5px;
+  border-top: 1px solid #50432f;
+  border-bottom: 1px solid #50432f;
+  position: relative;
+  z-index: 1;
+  margin-top: -300px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.prices {
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin-top: 280px;
-  }
+    justify-content: space-around;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+}
+    .prices p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 120px;
+      height: 30px;
+      border: 1px solid #50432f;
+      background-color: #8c7653;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+
+    .star-rating img {
+      max-width: 15px;
+      max-height: 15px;
+      margin-left: 5px;
+    }
+      .star-rating {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: -10px;
+        position: relative;
+        z-index: 1;
+
+      }
+
+.first-group, .second-group, .third-group, .fourth-group {
+      border-top: 1px solid white;
+      width: 230px;
+height: 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .first-group p, .second-group p, .third-group p, .fourth-group p {
+      display: flex;
+      flex-direction: row;
+      margin: 0 10px;
+      font-size: 14px;
+}
+
+.first-group {
+  margin-left: 15px;
+}
+
+.third-group {
+margin-right: 2px;
+}
+
+.fourth-group {
+margin-right: 20px;
+}
