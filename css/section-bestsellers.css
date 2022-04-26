@@ -47,12 +47,12 @@
   }
 
 .products p {
-  background-color: #9c896b;
+  background-color: #5e5c5c;
   opacity: 0.9;
   height: 100px;
   margin-right: 5px;
-  border-top: 1px solid #50432f;
-  border-bottom: 1px solid #50432f;
+  border-top: 1px solid #9dc5c3;
+  border-bottom: 1px solid #9dc5c3;
   position: relative;
   z-index: 1;
   margin-top: -300px;
@@ -77,8 +77,8 @@
       justify-content: center;
       width: 120px;
       height: 30px;
-      border: 1px solid #50432f;
-      background-color: #8c7653;
+      border: 1px solid #9dc5c3;
+      background-color: #40484e;
       border-radius: 5px;
       margin-left: 10px;
     }
