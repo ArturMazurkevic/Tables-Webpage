@@ -37,9 +37,9 @@
   width: 1200px;
   }
 
-  .product-container {
-    background-image: url(Valchromat.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 300px;
+.product-container {
+  background-image: url(Valchromat.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
   }
