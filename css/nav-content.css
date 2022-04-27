@@ -24,9 +24,8 @@
 .banner li {
   display: flex;
   align-items: center;
-}
+  }
 
-/*Navigation Bar*/
 .nav-content {
   max-width: 100%;
   display: flex;
@@ -44,7 +43,11 @@
   padding: 0 10px;
   list-style-type: none;
   font-size: 22px;
-  color: white;
+  color: #ffffff;
+  }
+
+  a:hover {
+    color: #9dc5c3;
   }
 
 .nav-content ul li {
@@ -56,6 +59,10 @@ input {
   height: 30px;
   border-radius: 10px;
   border: none;
+  }
+
+input:focus {
+  outline-color: #000000;
   }
 
 .login {
