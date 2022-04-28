@@ -29,6 +29,7 @@ body {
   font-display: swap;
   }
 
+
 .main-container {
   display: flex;
   justify-content: space-around;
@@ -69,7 +70,7 @@ span {
   font-display: block;
   font-size: 18px;
   font-family: 'Cinzel';
-  font-weight: bold;
+  font-weight: bolder;
   letter-spacing: 4px;
   overflow: hidden;
   white-space: nowrap;
@@ -134,6 +135,8 @@ span {
   }
 
 .description {
+  font-family: 'montserratsemibold';
+  font-weight: lighter;
   margin-top: -10px;
   max-width: 570px;
   line-height: 20px;

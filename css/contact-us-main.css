@@ -1,0 +1,142 @@
+.title {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.title p {
+  margin-top: -10px;
+}
+
+.logo {
+  position: relative;
+  left: 120px;
+  bottom: 75px;
+  border: 2px solid white;
+  max-width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+
+.logo h2 {
+  font-family: 'Cinzel', monospace;
+}
+
+.main-container {
+  display: flex;
+}
+
+.contact-form {
+  margin-left: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 490px;
+  width: 685px;
+  margin-top: -40px;
+}
+
+ .contact-form label {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.contact-form input {
+  margin: 30px 40px 0;
+  border-radius: 2px;
+}
+
+input[type="text"], input[type="email"] {
+  width: 600px;
+  height: 40px;
+  padding-left: 5px;
+}
+
+input[type="textarea"] {
+  padding-bottom: 80px;
+  padding-left: 5px;
+  width: 600px;
+  height: 120px;
+}
+
+.contact-form input[type="checkbox"] {
+  width: 15px;
+  position: relative;
+  top: 38px;
+
+}
+
+label input:first-child {
+  margin-top: 40px;
+}
+
+label p {
+  left: 70px;
+  position: relative;
+}
+
+button {
+  width: 200px;
+  height: 45px;
+  position: relative;
+  left: 440px;
+  bottom: 45px;
+  border-radius: 10px;
+  background-color: #9dc5c3;
+  border: 1px solid #fff;
+}
+
+.contacts {
+  width: 300px;
+  margin-left: 80px;
+  margin-top: -60px;
+}
+
+.hours {
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 175px;
+}
+table th {
+  display: flex;
+  margin-right: 30px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+margin-left: 40px;
+  margin-top: 15px;
+}
+.details img {
+  max-width: 20px;
+  margin-right: 10px;
+
+}
+
+.phone-details {
+  display: flex;
+  height: 25px;
+  align-items: center;
+  margin: 10px;
+}
+
+.email-details {
+  display: flex;
+  align-items: center;
+  height: 15px;
+  margin: 10px;
+}

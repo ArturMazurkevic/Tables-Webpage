@@ -19,9 +19,10 @@ footer nav {
   margin-bottom: -10px;
   }
 
-.footer-logo h2 {
-  margin-bottom: -5px;
-  }
+  .footer-logo h2 {
+    margin-bottom: -5px;
+    font-family: 'Cinzel', monospace;
+    }
 
 .footer-logo h2 a:hover {
   color: #ffffff;
@@ -52,6 +53,10 @@ hr {
   background-color: #40484e;
   opacity: 0.9;
   border-radius: 5px;
+  }
+
+  .footer-group h2 {
+    font-family: 'Cinzel' monospace;
   }
 
 input[type="email"] {
