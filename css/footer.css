@@ -53,11 +53,10 @@ hr {
   background-color: #40484e;
   opacity: 0.9;
   border-radius: 5px;
+  
   }
 
-.footer-group h2 {
-  font-family: 'Cinzel' monospace;
-  }
+
 
 input[type="email"] {
   width: 440px;
