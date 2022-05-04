@@ -77,13 +77,13 @@
   width: 120px;
   height: 30px;
   border: 1px solid #9dc5c3;
-  background-color: #40484e;
+  background-color: rgba(171, 66, 52, 0.8);
   border-radius: 5px;
   margin-left: 10px;
   }
 
 .prices p:hover {
-  border: 1px solid #ffffff;
+  border: 1px solid rgba(246, 102, 102, 1);
 }
 
 .star-rating img {

@@ -1,11 +1,19 @@
 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
   flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
   align-items: center;
   }
 
 .title p {
   margin-top: -10px;
+  font-size: 18px;
   }
 
 .logo {
@@ -16,17 +24,26 @@
   max-width: 90px;
   height: 90px;
   border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
   justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
   align-items: center;
   font-size: 22px;
   }
 
-.logo h2 {
-  font-family: 'Cinzel', monospace;
+.logo a:hover {
+  color: #fff;
   }
 
+
 .main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   }
 
@@ -41,7 +58,12 @@
   }
 
 .contact-form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
   flex-direction: column;
   }
 
@@ -85,7 +107,7 @@ button {
   left: 440px;
   bottom: 45px;
   border-radius: 10px;
-  background-color: #9dc5c3;
+  background-color: rgba(171, 66, 52, 0.8);
   border: 1px solid #fff;
   color: #fff;
   font-size: 16px;
@@ -94,8 +116,8 @@ button {
 
 button:hover {
   cursor: pointer;
-  border: 1px solid #40484e;
-  color: #40484e;
+  border: 1px solid rgba(246, 102, 102, 1);
+  color: rgba(246, 102, 102, 1);
   }
 
 .contacts {
@@ -106,26 +128,51 @@ button:hover {
 
 .hours {
   border-bottom: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
   align-items: center;
   height: 175px;
   }
 
 table th {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 30px;
   }
 
 .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
   justify-content: center;
   border-bottom: 1px solid white;
   }
 
+address {
+  font-style: normal;
+  line-height: 22px;
+  }
+
 .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
   flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
   align-items: flex-start;
   margin-left: 40px;
   margin-top: 15px;
@@ -137,15 +184,26 @@ table th {
   }
 
 .phone-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  height: 25px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
   align-items: center;
   margin: 10px;
+  height: 25px;
   }
 
 .email-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
   align-items: center;
   height: 15px;
   margin: 10px;
+  }
+  .email-details img {
+    max-width: 15px;
   }
